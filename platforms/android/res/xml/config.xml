@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.elab0009" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>DroidApp</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="hdpi" src="res/drawable-hdpi/appicon.png" />
+    <icon density="mdpi" src="res/drawable-mdpi/appicon.png" />
+    <icon density="xhdpi" src="res/drawable-xhdpi/appicon.png" />
+    <icon density="xxhdpi" src="res/drawable-xxhdpi/appicon.png" />
+    <icon density="xxxhdpi" src="res/drawable-xxxhdpi/appicon.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
